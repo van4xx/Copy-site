@@ -1,0 +1,225 @@
+body {
+    font-family: open-sans;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 16px;
+    word-spacing: 5px;
+}
+
+:root {
+    scroll-behavior: smooth;
+}
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    list-style: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 30%;
+}
+
+#navbar {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    padding: 0 32px;
+    justify-content: space-between;
+    /* important part */
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    top: 0;
+    background-color: #fff;
+    z-index: 999;
+}
+
+#navbar a {
+    margin: 0.7em;
+    transition: all 0.3s;
+}
+
+#navbar a:hover {
+    color: #a1a1a1;
+}
+
+.links-container {
+    min-width: fit-content;
+}
+
+main {
+    margin-top: 10vh;
+}
+
+.video-section {
+    overflow-x: hidden;
+}
+
+.who-we-are {
+    margin-top: 3em;
+}
+
+.heading-w-underline {
+    margin: 0 auto;
+    width: fit-content;
+    text-transform: uppercase;
+    font-size: 2em;
+    position: relative;
+    margin-bottom: 1em;
+}
+
+.heading-w-underline::after {
+    content: "";
+    width: 150%;
+    height: 5px;
+    background-color: yellow;
+    top: 95%;
+    left: -25%;
+    position: absolute;
+}
+
+.who-we-are p {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.brands {
+    padding-top: 5em;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.brands h2 {
+    margin-bottom: 2em;
+}
+
+.brand-image-container {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+    justify-content: center;
+}
+
+.brand-image-container a {
+    width: 30%;
+}
+
+.our-market {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 3em; */
+    padding-top: 4em;
+    gap: 2.5em;
+}
+
+.our-market .text-container {
+    text-align: justify;
+    width: 50%;
+    padding: 1em;
+}
+
+.our-market .img-container {
+    width: 40%;
+}
+
+.clients {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.client-image-container {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+    justify-content: center;
+}
+
+.client-image-container a {
+    width: 20%;
+}
+
+.partners {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.partners h3 {
+    color: #a1a1a1;
+    font-size: 1.7em;
+    margin-bottom: 1em;
+}
+
+.mall-image-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.mall-image-container a {
+    width: 30%;
+}
+
+.mall-name {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: #242424;
+    display: flex;
+    justify-content: space-around;
+    min-height: 50vh;
+    margin-top: 5em;
+    padding-top: 3em;
+}
+
+footer h2 {
+    color: #2990e4;
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+footer ul {
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+footer ul li {
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    transition: all 0.3s;
+}
+
+footer ul li:hover {
+    color: #2990e4;
+}
+
+footer ul li::marker {
+    color: #2990e4;
+}
+
+.footer-img {
+    display: block;
+}
